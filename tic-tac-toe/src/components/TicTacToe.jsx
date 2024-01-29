@@ -108,6 +108,7 @@ function TicTacToe() {
   return (
     <div>
       <h1 className="heading">Tic Tac Toe</h1>
+      <p className='footer'>Made by <a className="link" href="https://github.com/SpandanMozumder">Spandan Mozumder</a></p>
       <Board
         playerTurn={playerTurn}
         tiles={tiles}
@@ -116,6 +117,7 @@ function TicTacToe() {
       />
       <GameOver gameState={gameState} />
       <Reset gameState={gameState} onReset={handleReset} />
+
     </div>
   );
 }

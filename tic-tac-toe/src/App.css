@@ -27,11 +27,11 @@ h1 {
 }
 
 .right-border {
-  border-right: 0.2em solid #00B7C2;
+  border-right: 0.2em solid #00b7c2;
 }
 
 .bottom-border {
-  border-bottom: 0.2em solid #00B7C2;
+  border-bottom: 0.2em solid #00b7c2;
 }
 
 .x-hover:hover::after {
@@ -46,7 +46,7 @@ h1 {
 
 .strike {
   position: absolute;
-  background-color: #FF6000;
+  background-color: #ff6000;
 }
 
 .strike-row-1 {
@@ -96,18 +96,18 @@ h1 {
 
 .game-over {
   text-align: center;
-  border: #FF6000 8px;
+  border: #ff6000 8px;
   border-style: solid;
   padding: 10px;
   margin-top: 50px;
   font-size: 1.5em;
-  box-shadow: 1px 1px 10px #FF6000;
+  box-shadow: 1px 1px 10px #ff6000;
 }
 
 .reset-button {
   margin-top: 50px;
   padding: 20px;
-  background-color: #FF6000;
+  background-color: #ff6000;
   color: black;
   width: 100%;
   font-size: 1.5em;
@@ -116,13 +116,28 @@ h1 {
 }
 
 .reset-button:hover {
-  background-color: #FF6000;
+  background-color: #ff6000;
   color: white;
   box-shadow: 1px 1px 20px black;
 }
 
-.heading{
+.heading {
   font-size: 3em;
   font-weight: bolder;
-  color: #FF6000;
+  color: #ff6000;
+  margin-bottom: -10px;
+}
+
+.footer {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.link {
+  color: #ff6000;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
 }
