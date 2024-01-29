@@ -30,6 +30,6 @@ This is a Tic Tac Toe game built using React. It allows two players to take turn
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
-## License
+## View Live Website at
 
-This project is licensed under the [MIT License](LICENSE).
+https://spandan-mozumder-tic-tac-toe.netlify.app/
